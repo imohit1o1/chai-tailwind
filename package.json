@@ -1,11 +1,17 @@
 {
   "name": "chai-mini-tailwind",
   "version": "1.0.0",
-  "description": "A mini tailwind version project by chaicode cohort 2026",
-  "main": "src/index.js",
+  "description": "Lightweight utility-first CSS framework inspired by Tailwind",
+  "main": "dist/chai-mini-tailwind.css",
+  "style": "dist/chai-mini-tailwind.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node build.js",
+    "preview": "npx serve .",
+    "dev": "npx serve ."
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "css",
     "utility",
@@ -16,5 +22,12 @@
   ],
   "author": "Mohit kumar",
   "license": "ISC",
-  "packageManager": "pnpm@10.29.3"
+  "packageManager": "pnpm@10.29.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imohit1o1/chai-mini-tailwind"
+  },
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
 }
