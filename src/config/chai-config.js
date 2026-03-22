@@ -1,5 +1,5 @@
 export const ChaiConfig = {
-    // Background Colors - Complete spectrum
+    // ==================== BACKGROUNDS ====================
     bg: {
         // Reds
         'red-50': { backgroundColor: '#fef2f2' },
@@ -12,6 +12,7 @@ export const ChaiConfig = {
         'red-700': { backgroundColor: '#b91c1c' },
         'red-800': { backgroundColor: '#991b1b' },
         'red-900': { backgroundColor: '#7f1a1a' },
+        'red-950': { backgroundColor: '#450a0a' },
         'red': { backgroundColor: '#ef4444' },
         
         // Oranges
@@ -25,6 +26,8 @@ export const ChaiConfig = {
         'orange-700': { backgroundColor: '#c2410c' },
         'orange-800': { backgroundColor: '#9a3412' },
         'orange-900': { backgroundColor: '#7c2d12' },
+        'orange-950': { backgroundColor: '#431407' },
+        'orange': { backgroundColor: '#f97316' },
         
         // Yellows
         'yellow-50': { backgroundColor: '#fefce8' },
@@ -37,6 +40,7 @@ export const ChaiConfig = {
         'yellow-700': { backgroundColor: '#a16207' },
         'yellow-800': { backgroundColor: '#854d0e' },
         'yellow-900': { backgroundColor: '#713f12' },
+        'yellow-950': { backgroundColor: '#422006' },
         'yellow': { backgroundColor: '#eab308' },
         
         // Greens
@@ -50,6 +54,7 @@ export const ChaiConfig = {
         'green-700': { backgroundColor: '#15803d' },
         'green-800': { backgroundColor: '#166534' },
         'green-900': { backgroundColor: '#14532d' },
+        'green-950': { backgroundColor: '#052e16' },
         'green': { backgroundColor: '#22c55e' },
         
         // Emeralds
@@ -63,6 +68,8 @@ export const ChaiConfig = {
         'emerald-700': { backgroundColor: '#047857' },
         'emerald-800': { backgroundColor: '#065f46' },
         'emerald-900': { backgroundColor: '#064e3b' },
+        'emerald-950': { backgroundColor: '#022c22' },
+        'emerald': { backgroundColor: '#10b981' },
         
         // Blues
         'blue-50': { backgroundColor: '#eff6ff' },
@@ -75,6 +82,7 @@ export const ChaiConfig = {
         'blue-700': { backgroundColor: '#1d4ed8' },
         'blue-800': { backgroundColor: '#1e40af' },
         'blue-900': { backgroundColor: '#1e3a8a' },
+        'blue-950': { backgroundColor: '#172554' },
         'blue': { backgroundColor: '#3b82f6' },
         
         // Purples
@@ -88,6 +96,8 @@ export const ChaiConfig = {
         'purple-700': { backgroundColor: '#7e22ce' },
         'purple-800': { backgroundColor: '#6b21a5' },
         'purple-900': { backgroundColor: '#581c87' },
+        'purple-950': { backgroundColor: '#3b0764' },
+        'purple': { backgroundColor: '#a855f7' },
         
         // Pinks
         'pink-50': { backgroundColor: '#fdf2f8' },
@@ -100,6 +110,50 @@ export const ChaiConfig = {
         'pink-700': { backgroundColor: '#be185d' },
         'pink-800': { backgroundColor: '#9d174d' },
         'pink-900': { backgroundColor: '#831843' },
+        'pink-950': { backgroundColor: '#500724' },
+        'pink': { backgroundColor: '#ec489a' },
+        
+        // Cyans
+        'cyan-50': { backgroundColor: '#ecfeff' },
+        'cyan-100': { backgroundColor: '#cffafe' },
+        'cyan-200': { backgroundColor: '#a5f3fc' },
+        'cyan-300': { backgroundColor: '#67e8f9' },
+        'cyan-400': { backgroundColor: '#22d3ee' },
+        'cyan-500': { backgroundColor: '#06b6d4' },
+        'cyan-600': { backgroundColor: '#0891b2' },
+        'cyan-700': { backgroundColor: '#0e7490' },
+        'cyan-800': { backgroundColor: '#155e75' },
+        'cyan-900': { backgroundColor: '#164e63' },
+        'cyan-950': { backgroundColor: '#083344' },
+        'cyan': { backgroundColor: '#06b6d4' },
+        
+        // Teals
+        'teal-50': { backgroundColor: '#f0fdfa' },
+        'teal-100': { backgroundColor: '#ccfbf1' },
+        'teal-200': { backgroundColor: '#99f6e4' },
+        'teal-300': { backgroundColor: '#5eead4' },
+        'teal-400': { backgroundColor: '#2dd4bf' },
+        'teal-500': { backgroundColor: '#14b8a6' },
+        'teal-600': { backgroundColor: '#0d9488' },
+        'teal-700': { backgroundColor: '#0f766e' },
+        'teal-800': { backgroundColor: '#115e59' },
+        'teal-900': { backgroundColor: '#134e4a' },
+        'teal-950': { backgroundColor: '#042f2e' },
+        'teal': { backgroundColor: '#14b8a6' },
+        
+        // Indigos
+        'indigo-50': { backgroundColor: '#eef2ff' },
+        'indigo-100': { backgroundColor: '#e0e7ff' },
+        'indigo-200': { backgroundColor: '#c7d2fe' },
+        'indigo-300': { backgroundColor: '#a5b4fc' },
+        'indigo-400': { backgroundColor: '#818cf8' },
+        'indigo-500': { backgroundColor: '#6366f1' },
+        'indigo-600': { backgroundColor: '#4f46e5' },
+        'indigo-700': { backgroundColor: '#4338ca' },
+        'indigo-800': { backgroundColor: '#3730a3' },
+        'indigo-900': { backgroundColor: '#312e81' },
+        'indigo-950': { backgroundColor: '#1e1b4b' },
+        'indigo': { backgroundColor: '#6366f1' },
         
         // Grays
         'gray-50': { backgroundColor: '#f9fafb' },
@@ -112,6 +166,46 @@ export const ChaiConfig = {
         'gray-700': { backgroundColor: '#374151' },
         'gray-800': { backgroundColor: '#1f2937' },
         'gray-900': { backgroundColor: '#111827' },
+        'gray-950': { backgroundColor: '#030712' },
+        
+        // Zinc
+        'zinc-50': { backgroundColor: '#fafafa' },
+        'zinc-100': { backgroundColor: '#f4f4f5' },
+        'zinc-200': { backgroundColor: '#e4e4e7' },
+        'zinc-300': { backgroundColor: '#d4d4d8' },
+        'zinc-400': { backgroundColor: '#a1a1aa' },
+        'zinc-500': { backgroundColor: '#71717a' },
+        'zinc-600': { backgroundColor: '#52525b' },
+        'zinc-700': { backgroundColor: '#3f3f46' },
+        'zinc-800': { backgroundColor: '#27272a' },
+        'zinc-900': { backgroundColor: '#18181b' },
+        'zinc-950': { backgroundColor: '#09090b' },
+        
+        // Neutral
+        'neutral-50': { backgroundColor: '#fafafa' },
+        'neutral-100': { backgroundColor: '#f5f5f5' },
+        'neutral-200': { backgroundColor: '#e5e5e5' },
+        'neutral-300': { backgroundColor: '#d4d4d4' },
+        'neutral-400': { backgroundColor: '#a3a3a3' },
+        'neutral-500': { backgroundColor: '#737373' },
+        'neutral-600': { backgroundColor: '#525252' },
+        'neutral-700': { backgroundColor: '#404040' },
+        'neutral-800': { backgroundColor: '#262626' },
+        'neutral-900': { backgroundColor: '#171717' },
+        'neutral-950': { backgroundColor: '#0a0a0a' },
+        
+        // Stone
+        'stone-50': { backgroundColor: '#fafaf9' },
+        'stone-100': { backgroundColor: '#f5f5f4' },
+        'stone-200': { backgroundColor: '#e7e5e4' },
+        'stone-300': { backgroundColor: '#d6d3d1' },
+        'stone-400': { backgroundColor: '#a8a29e' },
+        'stone-500': { backgroundColor: '#78716c' },
+        'stone-600': { backgroundColor: '#57534e' },
+        'stone-700': { backgroundColor: '#44403c' },
+        'stone-800': { backgroundColor: '#292524' },
+        'stone-900': { backgroundColor: '#1c1917' },
+        'stone-950': { backgroundColor: '#0c0a09' },
         
         // Basic colors
         'white': { backgroundColor: '#ffffff' },
@@ -120,9 +214,8 @@ export const ChaiConfig = {
         'current': { backgroundColor: 'currentColor' }
     },
 
-    // Text Colors & Typography
+    // ==================== TEXT COLORS ====================
     text: {
-        // Complete color spectrum
         'white': { color: '#ffffff' },
         'black': { color: '#000000' },
         
@@ -137,20 +230,36 @@ export const ChaiConfig = {
         'red-700': { color: '#b91c1c' },
         'red-800': { color: '#991b1b' },
         'red-900': { color: '#7f1a1a' },
+        'red-950': { color: '#450a0a' },
         'red': { color: '#ef4444' },
         
-        // Blues
-        'blue-50': { color: '#eff6ff' },
-        'blue-100': { color: '#dbeafe' },
-        'blue-200': { color: '#bfdbfe' },
-        'blue-300': { color: '#93c5fd' },
-        'blue-400': { color: '#60a5fa' },
-        'blue-500': { color: '#3b82f6' },
-        'blue-600': { color: '#2563eb' },
-        'blue-700': { color: '#1d4ed8' },
-        'blue-800': { color: '#1e40af' },
-        'blue-900': { color: '#1e3a8a' },
-        'blue': { color: '#3b82f6' },
+        // Oranges
+        'orange-50': { color: '#fff7ed' },
+        'orange-100': { color: '#ffedd5' },
+        'orange-200': { color: '#fed7aa' },
+        'orange-300': { color: '#fdba74' },
+        'orange-400': { color: '#fb923c' },
+        'orange-500': { color: '#f97316' },
+        'orange-600': { color: '#ea580c' },
+        'orange-700': { color: '#c2410c' },
+        'orange-800': { color: '#9a3412' },
+        'orange-900': { color: '#7c2d12' },
+        'orange-950': { color: '#431407' },
+        'orange': { color: '#f97316' },
+        
+        // Yellows
+        'yellow-50': { color: '#fefce8' },
+        'yellow-100': { color: '#fef9c3' },
+        'yellow-200': { color: '#fef08a' },
+        'yellow-300': { color: '#fde047' },
+        'yellow-400': { color: '#facc15' },
+        'yellow-500': { color: '#eab308' },
+        'yellow-600': { color: '#ca8a04' },
+        'yellow-700': { color: '#a16207' },
+        'yellow-800': { color: '#854d0e' },
+        'yellow-900': { color: '#713f12' },
+        'yellow-950': { color: '#422006' },
+        'yellow': { color: '#eab308' },
         
         // Greens
         'green-50': { color: '#f0fdf4' },
@@ -163,7 +272,50 @@ export const ChaiConfig = {
         'green-700': { color: '#15803d' },
         'green-800': { color: '#166534' },
         'green-900': { color: '#14532d' },
+        'green-950': { color: '#052e16' },
         'green': { color: '#22c55e' },
+        
+        // Blues
+        'blue-50': { color: '#eff6ff' },
+        'blue-100': { color: '#dbeafe' },
+        'blue-200': { color: '#bfdbfe' },
+        'blue-300': { color: '#93c5fd' },
+        'blue-400': { color: '#60a5fa' },
+        'blue-500': { color: '#3b82f6' },
+        'blue-600': { color: '#2563eb' },
+        'blue-700': { color: '#1d4ed8' },
+        'blue-800': { color: '#1e40af' },
+        'blue-900': { color: '#1e3a8a' },
+        'blue-950': { color: '#172554' },
+        'blue': { color: '#3b82f6' },
+        
+        // Purples
+        'purple-50': { color: '#faf5ff' },
+        'purple-100': { color: '#f3e8ff' },
+        'purple-200': { color: '#e9d5ff' },
+        'purple-300': { color: '#d8b4fe' },
+        'purple-400': { color: '#c084fc' },
+        'purple-500': { color: '#a855f7' },
+        'purple-600': { color: '#9333ea' },
+        'purple-700': { color: '#7e22ce' },
+        'purple-800': { color: '#6b21a5' },
+        'purple-900': { color: '#581c87' },
+        'purple-950': { color: '#3b0764' },
+        'purple': { color: '#a855f7' },
+        
+        // Pinks
+        'pink-50': { color: '#fdf2f8' },
+        'pink-100': { color: '#fce7f3' },
+        'pink-200': { color: '#fbcfe8' },
+        'pink-300': { color: '#f9a8d4' },
+        'pink-400': { color: '#f472b6' },
+        'pink-500': { color: '#ec489a' },
+        'pink-600': { color: '#db2777' },
+        'pink-700': { color: '#be185d' },
+        'pink-800': { color: '#9d174d' },
+        'pink-900': { color: '#831843' },
+        'pink-950': { color: '#500724' },
+        'pink': { color: '#ec489a' },
         
         // Grays
         'gray-50': { color: '#f9fafb' },
@@ -176,21 +328,22 @@ export const ChaiConfig = {
         'gray-700': { color: '#374151' },
         'gray-800': { color: '#1f2937' },
         'gray-900': { color: '#111827' },
+        'gray-950': { color: '#030712' },
         
-        // Font Sizes (px, rem, responsive)
-        'xs': { fontSize: '0.75rem' },      // 12px
-        'sm': { fontSize: '0.875rem' },     // 14px
-        'base': { fontSize: '1rem' },       // 16px
-        'lg': { fontSize: '1.125rem' },     // 18px
-        'xl': { fontSize: '1.25rem' },      // 20px
-        '2xl': { fontSize: '1.5rem' },      // 24px
-        '3xl': { fontSize: '1.875rem' },    // 30px
-        '4xl': { fontSize: '2.25rem' },     // 36px
-        '5xl': { fontSize: '3rem' },        // 48px
-        '6xl': { fontSize: '3.75rem' },     // 60px
-        '7xl': { fontSize: '4.5rem' },      // 72px
-        '8xl': { fontSize: '6rem' },        // 96px
-        '9xl': { fontSize: '8rem' },        // 128px
+        // Font Sizes (rem)
+        'xs': { fontSize: '0.75rem' },
+        'sm': { fontSize: '0.875rem' },
+        'base': { fontSize: '1rem' },
+        'lg': { fontSize: '1.125rem' },
+        'xl': { fontSize: '1.25rem' },
+        '2xl': { fontSize: '1.5rem' },
+        '3xl': { fontSize: '1.875rem' },
+        '4xl': { fontSize: '2.25rem' },
+        '5xl': { fontSize: '3rem' },
+        '6xl': { fontSize: '3.75rem' },
+        '7xl': { fontSize: '4.5rem' },
+        '8xl': { fontSize: '6rem' },
+        '9xl': { fontSize: '8rem' },
         
         // Text Alignment
         'left': { textAlign: 'left' },
@@ -226,6 +379,14 @@ export const ChaiConfig = {
         'leading-normal': { lineHeight: '1.5' },
         'leading-relaxed': { lineHeight: '1.625' },
         'leading-loose': { lineHeight: '2' },
+        'leading-3': { lineHeight: '.75rem' },
+        'leading-4': { lineHeight: '1rem' },
+        'leading-5': { lineHeight: '1.25rem' },
+        'leading-6': { lineHeight: '1.5rem' },
+        'leading-7': { lineHeight: '1.75rem' },
+        'leading-8': { lineHeight: '2rem' },
+        'leading-9': { lineHeight: '2.25rem' },
+        'leading-10': { lineHeight: '2.5rem' },
         
         // Letter Spacing
         'tracking-tighter': { letterSpacing: '-0.05em' },
@@ -233,10 +394,33 @@ export const ChaiConfig = {
         'tracking-normal': { letterSpacing: '0' },
         'tracking-wide': { letterSpacing: '0.025em' },
         'tracking-wider': { letterSpacing: '0.05em' },
-        'tracking-widest': { letterSpacing: '0.1em' }
+        'tracking-widest': { letterSpacing: '0.1em' },
+        
+        // Text Indent
+        'indent-0': { textIndent: '0' },
+        'indent-px': { textIndent: '1px' },
+        'indent-0.5': { textIndent: '0.125rem' },
+        'indent-1': { textIndent: '0.25rem' },
+        'indent-2': { textIndent: '0.5rem' },
+        'indent-3': { textIndent: '0.75rem' },
+        'indent-4': { textIndent: '1rem' },
+        'indent-5': { textIndent: '1.25rem' },
+        'indent-6': { textIndent: '1.5rem' },
+        'indent-8': { textIndent: '2rem' },
+        'indent-10': { textIndent: '2.5rem' },
+        
+        // Vertical Alignment
+        'align-baseline': { verticalAlign: 'baseline' },
+        'align-top': { verticalAlign: 'top' },
+        'align-middle': { verticalAlign: 'middle' },
+        'align-bottom': { verticalAlign: 'bottom' },
+        'align-text-top': { verticalAlign: 'text-top' },
+        'align-text-bottom': { verticalAlign: 'text-bottom' },
+        'align-sub': { verticalAlign: 'sub' },
+        'align-super': { verticalAlign: 'super' }
     },
 
-    // Font Weights
+    // ==================== FONT WEIGHTS ====================
     font: {
         'thin': { fontWeight: '100' },
         'extralight': { fontWeight: '200' },
@@ -249,7 +433,7 @@ export const ChaiConfig = {
         'black': { fontWeight: '900' }
     },
 
-    // Padding - Complete range
+    // ==================== SPACING - PADDING ====================
     p: {
         '0': { padding: '0' },
         'px': { padding: '1px' },
@@ -287,7 +471,7 @@ export const ChaiConfig = {
         '80': { padding: '320px' },
         '96': { padding: '384px' },
         
-        // Directional padding
+        // Directional
         'x-0': { paddingLeft: '0', paddingRight: '0' },
         'x-px': { paddingLeft: '1px', paddingRight: '1px' },
         'x-0.5': { paddingLeft: '2px', paddingRight: '2px' },
@@ -299,6 +483,10 @@ export const ChaiConfig = {
         'x-6': { paddingLeft: '24px', paddingRight: '24px' },
         'x-8': { paddingLeft: '32px', paddingRight: '32px' },
         'x-10': { paddingLeft: '40px', paddingRight: '40px' },
+        'x-12': { paddingLeft: '48px', paddingRight: '48px' },
+        'x-16': { paddingLeft: '64px', paddingRight: '64px' },
+        'x-20': { paddingLeft: '80px', paddingRight: '80px' },
+        'x-24': { paddingLeft: '96px', paddingRight: '96px' },
         
         'y-0': { paddingTop: '0', paddingBottom: '0' },
         'y-px': { paddingTop: '1px', paddingBottom: '1px' },
@@ -311,6 +499,10 @@ export const ChaiConfig = {
         'y-6': { paddingTop: '24px', paddingBottom: '24px' },
         'y-8': { paddingTop: '32px', paddingBottom: '32px' },
         'y-10': { paddingTop: '40px', paddingBottom: '40px' },
+        'y-12': { paddingTop: '48px', paddingBottom: '48px' },
+        'y-16': { paddingTop: '64px', paddingBottom: '64px' },
+        'y-20': { paddingTop: '80px', paddingBottom: '80px' },
+        'y-24': { paddingTop: '96px', paddingBottom: '96px' },
         
         't-0': { paddingTop: '0' },
         't-px': { paddingTop: '1px' },
@@ -323,6 +515,10 @@ export const ChaiConfig = {
         't-6': { paddingTop: '24px' },
         't-8': { paddingTop: '32px' },
         't-10': { paddingTop: '40px' },
+        't-12': { paddingTop: '48px' },
+        't-16': { paddingTop: '64px' },
+        't-20': { paddingTop: '80px' },
+        't-24': { paddingTop: '96px' },
         
         'r-0': { paddingRight: '0' },
         'r-px': { paddingRight: '1px' },
@@ -335,6 +531,10 @@ export const ChaiConfig = {
         'r-6': { paddingRight: '24px' },
         'r-8': { paddingRight: '32px' },
         'r-10': { paddingRight: '40px' },
+        'r-12': { paddingRight: '48px' },
+        'r-16': { paddingRight: '64px' },
+        'r-20': { paddingRight: '80px' },
+        'r-24': { paddingRight: '96px' },
         
         'b-0': { paddingBottom: '0' },
         'b-px': { paddingBottom: '1px' },
@@ -347,6 +547,10 @@ export const ChaiConfig = {
         'b-6': { paddingBottom: '24px' },
         'b-8': { paddingBottom: '32px' },
         'b-10': { paddingBottom: '40px' },
+        'b-12': { paddingBottom: '48px' },
+        'b-16': { paddingBottom: '64px' },
+        'b-20': { paddingBottom: '80px' },
+        'b-24': { paddingBottom: '96px' },
         
         'l-0': { paddingLeft: '0' },
         'l-px': { paddingLeft: '1px' },
@@ -358,10 +562,14 @@ export const ChaiConfig = {
         'l-5': { paddingLeft: '20px' },
         'l-6': { paddingLeft: '24px' },
         'l-8': { paddingLeft: '32px' },
-        'l-10': { paddingLeft: '40px' }
+        'l-10': { paddingLeft: '40px' },
+        'l-12': { paddingLeft: '48px' },
+        'l-16': { paddingLeft: '64px' },
+        'l-20': { paddingLeft: '80px' },
+        'l-24': { paddingLeft: '96px' }
     },
 
-    // Margin - Complete range
+    // ==================== SPACING - MARGIN ====================
     m: {
         '0': { margin: '0' },
         'px': { margin: '1px' },
@@ -398,11 +606,9 @@ export const ChaiConfig = {
         '72': { margin: '288px' },
         '80': { margin: '320px' },
         '96': { margin: '384px' },
-        
-        // Auto margin
         'auto': { margin: 'auto' },
         
-        // Directional margin
+        // Directional
         'x-0': { marginLeft: '0', marginRight: '0' },
         'x-auto': { marginLeft: 'auto', marginRight: 'auto' },
         'x-px': { marginLeft: '1px', marginRight: '1px' },
@@ -415,6 +621,8 @@ export const ChaiConfig = {
         'x-6': { marginLeft: '24px', marginRight: '24px' },
         'x-8': { marginLeft: '32px', marginRight: '32px' },
         'x-10': { marginLeft: '40px', marginRight: '40px' },
+        'x-12': { marginLeft: '48px', marginRight: '48px' },
+        'x-16': { marginLeft: '64px', marginRight: '64px' },
         
         'y-0': { marginTop: '0', marginBottom: '0' },
         'y-auto': { marginTop: 'auto', marginBottom: 'auto' },
@@ -428,6 +636,8 @@ export const ChaiConfig = {
         'y-6': { marginTop: '24px', marginBottom: '24px' },
         'y-8': { marginTop: '32px', marginBottom: '32px' },
         'y-10': { marginTop: '40px', marginBottom: '40px' },
+        'y-12': { marginTop: '48px', marginBottom: '48px' },
+        'y-16': { marginTop: '64px', marginBottom: '64px' },
         
         't-0': { marginTop: '0' },
         't-auto': { marginTop: 'auto' },
@@ -441,6 +651,8 @@ export const ChaiConfig = {
         't-6': { marginTop: '24px' },
         't-8': { marginTop: '32px' },
         't-10': { marginTop: '40px' },
+        't-12': { marginTop: '48px' },
+        't-16': { marginTop: '64px' },
         
         'r-0': { marginRight: '0' },
         'r-auto': { marginRight: 'auto' },
@@ -454,6 +666,8 @@ export const ChaiConfig = {
         'r-6': { marginRight: '24px' },
         'r-8': { marginRight: '32px' },
         'r-10': { marginRight: '40px' },
+        'r-12': { marginRight: '48px' },
+        'r-16': { marginRight: '64px' },
         
         'b-0': { marginBottom: '0' },
         'b-auto': { marginBottom: 'auto' },
@@ -467,6 +681,8 @@ export const ChaiConfig = {
         'b-6': { marginBottom: '24px' },
         'b-8': { marginBottom: '32px' },
         'b-10': { marginBottom: '40px' },
+        'b-12': { marginBottom: '48px' },
+        'b-16': { marginBottom: '64px' },
         
         'l-0': { marginLeft: '0' },
         'l-auto': { marginLeft: 'auto' },
@@ -479,20 +695,22 @@ export const ChaiConfig = {
         'l-5': { marginLeft: '20px' },
         'l-6': { marginLeft: '24px' },
         'l-8': { marginLeft: '32px' },
-        'l-10': { marginLeft: '40px' }
+        'l-10': { marginLeft: '40px' },
+        'l-12': { marginLeft: '48px' },
+        'l-16': { marginLeft: '64px' }
     },
 
-    // Border Radius - Complete range
+    // ==================== BORDER RADIUS ====================
     rounded: {
         'none': { borderRadius: '0' },
-        'sm': { borderRadius: '0.125rem' },      // 2px
-        'base': { borderRadius: '0.25rem' },     // 4px
-        'md': { borderRadius: '0.375rem' },      // 6px
-        'lg': { borderRadius: '0.5rem' },        // 8px
-        'xl': { borderRadius: '0.75rem' },       // 12px
-        '2xl': { borderRadius: '1rem' },         // 16px
-        '3xl': { borderRadius: '1.5rem' },       // 24px
-        '4xl': { borderRadius: '2rem' },         // 32px
+        'sm': { borderRadius: '0.125rem' },
+        'base': { borderRadius: '0.25rem' },
+        'md': { borderRadius: '0.375rem' },
+        'lg': { borderRadius: '0.5rem' },
+        'xl': { borderRadius: '0.75rem' },
+        '2xl': { borderRadius: '1rem' },
+        '3xl': { borderRadius: '1.5rem' },
+        '4xl': { borderRadius: '2rem' },
         'full': { borderRadius: '9999px' },
         
         // Individual corners
@@ -553,16 +771,14 @@ export const ChaiConfig = {
         'br-full': { borderBottomRightRadius: '9999px' }
     },
 
-    // Border Width & Style
+    // ==================== BORDER WIDTH ====================
     border: {
-        // Widths
         '0': { borderWidth: '0' },
         '': { borderWidth: '1px', borderStyle: 'solid' },
         '2': { borderWidth: '2px', borderStyle: 'solid' },
         '4': { borderWidth: '4px', borderStyle: 'solid' },
         '8': { borderWidth: '8px', borderStyle: 'solid' },
         
-        // Directional borders
         't-0': { borderTopWidth: '0' },
         't': { borderTopWidth: '1px', borderTopStyle: 'solid' },
         't-2': { borderTopWidth: '2px', borderTopStyle: 'solid' },
@@ -587,7 +803,6 @@ export const ChaiConfig = {
         'l-4': { borderLeftWidth: '4px', borderLeftStyle: 'solid' },
         'l-8': { borderLeftWidth: '8px', borderLeftStyle: 'solid' },
         
-        // Border styles
         'solid': { borderStyle: 'solid' },
         'dashed': { borderStyle: 'dashed' },
         'dotted': { borderStyle: 'dotted' },
@@ -595,64 +810,26 @@ export const ChaiConfig = {
         'none': { borderStyle: 'none' }
     },
 
-    // Border Colors
+    // ==================== BORDER COLOR ====================
     borderColor: {
-        // Complete color spectrum
         'transparent': { borderColor: 'transparent' },
         'current': { borderColor: 'currentColor' },
         'white': { borderColor: '#ffffff' },
         'black': { borderColor: '#000000' },
         
-        // Reds
-        'red-50': { borderColor: '#fef2f2' },
-        'red-100': { borderColor: '#fee2e2' },
-        'red-200': { borderColor: '#fecaca' },
-        'red-300': { borderColor: '#fca5a5' },
-        'red-400': { borderColor: '#f87171' },
         'red-500': { borderColor: '#ef4444' },
-        'red-600': { borderColor: '#dc2626' },
-        'red-700': { borderColor: '#b91c1c' },
-        'red-800': { borderColor: '#991b1b' },
-        'red-900': { borderColor: '#7f1a1a' },
-        
-        // Blues
-        'blue-50': { borderColor: '#eff6ff' },
-        'blue-100': { borderColor: '#dbeafe' },
-        'blue-200': { borderColor: '#bfdbfe' },
-        'blue-300': { borderColor: '#93c5fd' },
-        'blue-400': { borderColor: '#60a5fa' },
-        'blue-500': { borderColor: '#3b82f6' },
-        'blue-600': { borderColor: '#2563eb' },
-        'blue-700': { borderColor: '#1d4ed8' },
-        'blue-800': { borderColor: '#1e40af' },
-        'blue-900': { borderColor: '#1e3a8a' },
-        
-        // Greens
-        'green-50': { borderColor: '#f0fdf4' },
-        'green-100': { borderColor: '#dcfce7' },
-        'green-200': { borderColor: '#bbf7d0' },
-        'green-300': { borderColor: '#86efac' },
-        'green-400': { borderColor: '#4ade80' },
+        'orange-500': { borderColor: '#f97316' },
+        'yellow-500': { borderColor: '#eab308' },
         'green-500': { borderColor: '#22c55e' },
-        'green-600': { borderColor: '#16a34a' },
-        'green-700': { borderColor: '#15803d' },
-        'green-800': { borderColor: '#166534' },
-        'green-900': { borderColor: '#14532d' },
-        
-        // Grays
-        'gray-50': { borderColor: '#f9fafb' },
-        'gray-100': { borderColor: '#f3f4f6' },
-        'gray-200': { borderColor: '#e5e7eb' },
-        'gray-300': { borderColor: '#d1d5db' },
-        'gray-400': { borderColor: '#9ca3af' },
+        'blue-500': { borderColor: '#3b82f6' },
+        'purple-500': { borderColor: '#a855f7' },
+        'pink-500': { borderColor: '#ec489a' },
         'gray-500': { borderColor: '#6b7280' },
-        'gray-600': { borderColor: '#4b5563' },
         'gray-700': { borderColor: '#374151' },
-        'gray-800': { borderColor: '#1f2937' },
-        'gray-900': { borderColor: '#111827' }
+        'gray-800': { borderColor: '#1f2937' }
     },
 
-    // Flexbox & Grid
+    // ==================== FLEXBOX ====================
     flex: {
         '': { display: 'flex' },
         'inline': { display: 'inline-flex' },
@@ -684,6 +861,7 @@ export const ChaiConfig = {
         'shrink-0': { flexShrink: '0' }
     },
 
+    // ==================== GRID ====================
     grid: {
         '': { display: 'grid' },
         'inline': { display: 'inline-grid' },
@@ -714,6 +892,7 @@ export const ChaiConfig = {
         'flow-col-dense': { gridAutoFlow: 'column dense' }
     },
 
+    // ==================== GAP ====================
     gap: {
         '0': { gap: '0' },
         '0.5': { gap: '2px' },
@@ -760,26 +939,32 @@ export const ChaiConfig = {
         'y-10': { rowGap: '40px' }
     },
 
-    // Opacity
+    // ==================== OPACITY ====================
     opacity: {
         '0': { opacity: '0' },
         '5': { opacity: '0.05' },
         '10': { opacity: '0.1' },
+        '15': { opacity: '0.15' },
         '20': { opacity: '0.2' },
         '25': { opacity: '0.25' },
         '30': { opacity: '0.3' },
+        '35': { opacity: '0.35' },
         '40': { opacity: '0.4' },
+        '45': { opacity: '0.45' },
         '50': { opacity: '0.5' },
+        '55': { opacity: '0.55' },
         '60': { opacity: '0.6' },
+        '65': { opacity: '0.65' },
         '70': { opacity: '0.7' },
         '75': { opacity: '0.75' },
         '80': { opacity: '0.8' },
+        '85': { opacity: '0.85' },
         '90': { opacity: '0.9' },
         '95': { opacity: '0.95' },
         '100': { opacity: '1' }
     },
 
-    // Box Shadow
+    // ==================== BOX SHADOW ====================
     shadow: {
         'sm': { boxShadow: '0 1px 2px 0 rgb(0 0 0 / 0.05)' },
         '': { boxShadow: '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)' },
@@ -791,7 +976,7 @@ export const ChaiConfig = {
         'none': { boxShadow: 'none' }
     },
 
-    // Width
+    // ==================== WIDTH ====================
     w: {
         '0': { width: '0' },
         'px': { width: '1px' },
@@ -844,6 +1029,17 @@ export const ChaiConfig = {
         '3/6': { width: '50%' },
         '4/6': { width: '66.666667%' },
         '5/6': { width: '83.333333%' },
+        '1/12': { width: '8.333333%' },
+        '2/12': { width: '16.666667%' },
+        '3/12': { width: '25%' },
+        '4/12': { width: '33.333333%' },
+        '5/12': { width: '41.666667%' },
+        '6/12': { width: '50%' },
+        '7/12': { width: '58.333333%' },
+        '8/12': { width: '66.666667%' },
+        '9/12': { width: '75%' },
+        '10/12': { width: '83.333333%' },
+        '11/12': { width: '91.666667%' },
         'full': { width: '100%' },
         'screen': { width: '100vw' },
         'min': { width: 'min-content' },
@@ -851,7 +1047,7 @@ export const ChaiConfig = {
         'fit': { width: 'fit-content' }
     },
 
-    // Height
+    // ==================== HEIGHT ====================
     h: {
         '0': { height: '0' },
         'px': { height: '1px' },
@@ -902,7 +1098,7 @@ export const ChaiConfig = {
         'fit': { height: 'fit-content' }
     },
 
-    // Position
+    // ==================== POSITION ====================
     position: {
         'static': { position: 'static' },
         'fixed': { position: 'fixed' },
@@ -911,7 +1107,7 @@ export const ChaiConfig = {
         'sticky': { position: 'sticky' }
     },
 
-    // Z-Index
+    // ==================== Z-INDEX ====================
     z: {
         '0': { zIndex: '0' },
         '10': { zIndex: '10' },
@@ -922,7 +1118,7 @@ export const ChaiConfig = {
         'auto': { zIndex: 'auto' }
     },
 
-    // Overflow
+    // ==================== OVERFLOW ====================
     overflow: {
         'auto': { overflow: 'auto' },
         'hidden': { overflow: 'hidden' },
@@ -938,7 +1134,7 @@ export const ChaiConfig = {
         'y-visible': { overflowY: 'visible' }
     },
 
-    // Cursor
+    // ==================== CURSOR ====================
     cursor: {
         'auto': { cursor: 'auto' },
         'default': { cursor: 'default' },
@@ -949,10 +1145,13 @@ export const ChaiConfig = {
         'help': { cursor: 'help' },
         'not-allowed': { cursor: 'not-allowed' },
         'grab': { cursor: 'grab' },
-        'grabbing': { cursor: 'grabbing' }
+        'grabbing': { cursor: 'grabbing' },
+        'crosshair': { cursor: 'crosshair' },
+        'zoom-in': { cursor: 'zoom-in' },
+        'zoom-out': { cursor: 'zoom-out' }
     },
 
-    // Transition
+    // ==================== TRANSITION ====================
     transition: {
         'none': { transitionProperty: 'none' },
         'all': { transitionProperty: 'all', transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)', transitionDuration: '150ms' },
@@ -985,7 +1184,7 @@ export const ChaiConfig = {
         'ease-in-out': { transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }
     },
 
-    // Transform
+    // ==================== TRANSFORM ====================
     transform: {
         '': { transform: 'translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))' },
         'none': { transform: 'none' },
@@ -1005,6 +1204,7 @@ export const ChaiConfig = {
         'rotate-45': { transform: 'rotate(45deg)' },
         'rotate-90': { transform: 'rotate(90deg)' },
         'rotate-180': { transform: 'rotate(180deg)' },
+        'rotate-270': { transform: 'rotate(270deg)' },
         
         'translate-x-0': { transform: 'translateX(0)' },
         'translate-x-1': { transform: 'translateX(4px)' },
@@ -1023,16 +1223,20 @@ export const ChaiConfig = {
         'translate-y-full': { transform: 'translateY(100%)' }
     },
 
-    // Animation
+    // ==================== ANIMATION ====================
     animation: {
         'none': { animation: 'none' },
         'spin': { animation: 'spin 1s linear infinite' },
         'ping': { animation: 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite' },
         'pulse': { animation: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite' },
-        'bounce': { animation: 'bounce 1s infinite' }
+        'bounce': { animation: 'bounce 1s infinite' },
+        'fade-in': { animation: 'fadeIn 0.5s ease-out' },
+        'fade-out': { animation: 'fadeOut 0.5s ease-in' },
+        'slide-in': { animation: 'slideIn 0.3s ease-out' },
+        'slide-out': { animation: 'slideOut 0.3s ease-in' }
     },
 
-    // Background
+    // ==================== BACKGROUND UTILITIES ====================
     background: {
         'cover': { backgroundSize: 'cover' },
         'contain': { backgroundSize: 'contain' },
@@ -1048,7 +1252,7 @@ export const ChaiConfig = {
         'repeat-y': { backgroundRepeat: 'repeat-y' }
     },
 
-    // Display
+    // ==================== DISPLAY ====================
     display: {
         'block': { display: 'block' },
         'inline-block': { display: 'inline-block' },
@@ -1060,14 +1264,14 @@ export const ChaiConfig = {
         'hidden': { display: 'none' }
     },
 
-    // Visibility
+    // ==================== VISIBILITY ====================
     visibility: {
         'visible': { visibility: 'visible' },
         'invisible': { visibility: 'hidden' },
         'collapse': { visibility: 'collapse' }
     },
 
-    // User Select
+    // ==================== USER SELECT ====================
     select: {
         'none': { userSelect: 'none' },
         'text': { userSelect: 'text' },
@@ -1075,13 +1279,13 @@ export const ChaiConfig = {
         'auto': { userSelect: 'auto' }
     },
 
-    // Pointer Events
+    // ==================== POINTER EVENTS ====================
     pointer: {
         'none': { pointerEvents: 'none' },
         'auto': { pointerEvents: 'auto' }
     },
 
-    // Resize
+    // ==================== RESIZE ====================
     resize: {
         'none': { resize: 'none' },
         'y': { resize: 'vertical' },
@@ -1089,14 +1293,17 @@ export const ChaiConfig = {
         'both': { resize: 'both' }
     },
 
-    // List Style
+    // ==================== LIST STYLE ====================
     list: {
         'none': { listStyleType: 'none' },
         'disc': { listStyleType: 'disc' },
-        'decimal': { listStyleType: 'decimal' }
+        'decimal': { listStyleType: 'decimal' },
+        'circle': { listStyleType: 'circle' },
+        'square': { listStyleType: 'square' },
+        'roman': { listStyleType: 'upper-roman' }
     },
 
-    // Object Fit
+    // ==================== OBJECT FIT ====================
     object: {
         'contain': { objectFit: 'contain' },
         'cover': { objectFit: 'cover' },
@@ -1106,7 +1313,7 @@ export const ChaiConfig = {
     }
 };
 
-// Keyframes for animations
+// ==================== KEYFRAMES ====================
 export const ChaiKeyframes = {
     '@keyframes spin': {
         from: { transform: 'rotate(0deg)' },
@@ -1128,5 +1335,21 @@ export const ChaiKeyframes = {
             transform: 'translateY(0)',
             animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)'
         }
+    },
+    '@keyframes fadeIn': {
+        from: { opacity: '0' },
+        to: { opacity: '1' }
+    },
+    '@keyframes fadeOut': {
+        from: { opacity: '1' },
+        to: { opacity: '0' }
+    },
+    '@keyframes slideIn': {
+        from: { transform: 'translateX(-100%)' },
+        to: { transform: 'translateX(0)' }
+    },
+    '@keyframes slideOut': {
+        from: { transform: 'translateX(0)' },
+        to: { transform: 'translateX(-100%)' }
     }
 };

@@ -4,7 +4,7 @@
   "description": "A mini tailwind version project by chaicode cohort 2026",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "esbuild src/index.js --bundle --outfile=dist/chai-mini-tailwind.js --format=iife --minify"
   },
   "keywords": [
     "css",
@@ -16,5 +16,8 @@
   ],
   "author": "Mohit kumar",
   "license": "ISC",
-  "packageManager": "pnpm@10.29.3"
+  "packageManager": "pnpm@10.29.3",
+  "devDependencies": {
+    "esbuild": "^0.27.4"
+  }
 }
