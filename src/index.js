@@ -30,6 +30,7 @@ function main() {
         //* Apply styles to element
         applyChaiCss(element, chaiClasses, finalStyles);
     })
+    console.log("Chai CDN Loaded");
 }
 
 document.addEventListener("DOMContentLoaded", () => {
