@@ -2,9 +2,10 @@
   "name": "chai-mini-tailwind",
   "version": "1.0.0",
   "description": "A mini tailwind version project by chaicode cohort 2026",
-  "main": "src/index.js",
+  "main": "dist/chai-mini-tailwind.js",
   "scripts": {
-    "build": "esbuild src/index.js --bundle --outfile=dist/chai-mini-tailwind.js --format=iife --minify"
+    "build": "esbuild src/index.js --bundle --outfile=dist/chai-mini-tailwind.js --format=iife --minify",
+    "dev": "esbuild src/index.js --bundle --outfile=dist/chai-mini-tailwind.js --format=iife --watch"
   },
   "keywords": [
     "css",
@@ -17,6 +18,9 @@
   "author": "Mohit kumar",
   "license": "ISC",
   "packageManager": "pnpm@10.29.3",
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  },
   "devDependencies": {
     "esbuild": "^0.27.4"
   }
