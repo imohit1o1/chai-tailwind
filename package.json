@@ -1,0 +1,20 @@
+{
+  "name": "chai-mini-tailwind",
+  "version": "1.0.0",
+  "description": "A mini tailwind version project by chaicode cohort 2026",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "utility",
+    "tailwind",
+    "chai",
+    "inline-styles",
+    "dom"
+  ],
+  "author": "Mohit kumar",
+  "license": "ISC",
+  "packageManager": "pnpm@10.29.3"
+}
